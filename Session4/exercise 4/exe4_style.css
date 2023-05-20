@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Exercise 4 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 { 
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+div { 
+    background-color: #eee;
+    height: 650px;
+    width: 650px;
+    margin: 50px auto;
+}
+form {
+    background-color: white;
+    width: 450px;
+    height: 550px;
+    box-shadow: 2px 2px 20px #aaa;
+    margin: auto;
+    border-radius: 6px;
+    flex-direction: column;
+    display: flex;
+    box-shadow:#ddd;
+}
+label {
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+}
+#label1 { 
+    margin: 10px 10px 0 30px;
+    padding: 10px 20px 0 20px;
+}
+#label2, #label3, #label4, #label5 { 
+    margin: 0px 10px 0 30px;
+    padding: 0px 20px 0 20px;
+}
+[type="text"], [type="email"], [type="tel"], textarea {
+    padding: 10px;
+    margin: 0 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+[type="file"] {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border: none;
+}
+[type="button"] {
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: auto;
+    border: none;
+    margin: 0 0 20px 50px;
+    font-size: 16px;
+}
+.fa-solid {
+    color: #1dd320;
+    font-size: 30px;
+    border-radius: 10px;
+    position: fixed;
+    top: 500px;
+    left: 750px;
+}
+[type="reset"] {
+    width: 35px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(./reset-button-14440.png);
+    position: absolute;
+    top: 580px;
+    right: 340px;
+    object-fit: cover;
+
+}
+

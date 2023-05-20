@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+/* Practice 4 */
+#menubar {
+    font-size: 20px;
+    width: 200px;
+    height: 500px;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    float: left;
+    position: absolute;
+}
+#menubar a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #000;
+}
+#menubar a.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+#main {
+    margin-left: 200px;
+    padding: 50px;
+}
+div p {
+    margin-top: 10px;
+    padding: 10px;
+}

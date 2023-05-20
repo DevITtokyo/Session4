@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+h1 {
+    margin-left: 30px;
+}
+nav {
+    background-color: gray;
+    margin: 0 0 20px 0;
+}
+a {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 35px 
+}
+h2 {
+    background-color: red;
+    font-size: 30px;
+    padding: 10px 10px 10px 50px;
+}
+#section1 > iframe {
+    margin: 20px 150px;
+}
+iframe {
+    width: 854px;
+    height: 480px;
+
+}
+ul > li {
+    width: 935px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 70px;
+    background-color: yellow;
+    padding: 10px;
+}
+ul > iframe {
+    margin-left: 150px;
+}
+ul > p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 150px;
+    font-style: italic;
+}
+ol > li {
+    font-size: 25px;
+    margin: 20px 150px; 
+}
+footer > p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}

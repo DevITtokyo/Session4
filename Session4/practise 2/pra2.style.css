@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Practice 2 */
+header {
+    margin: 20px 40px;
+}
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-size: cover;
+    
+}
+nav {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+a {
+    color:#333;
+    text-decoration: none;
+}
+a:hover {
+    color:#fff;
+    background-color: #333;
+}

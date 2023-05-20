@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Exercise 1*/
+body{
+    width: 600;
+    height: 300;
+}
+.tag > span{
+    display: inline-block;
+    padding: 5px 35px;
+    color: #eee;
+    background-color: rgb(134, 153, 202);
+    margin-top: 24px;
+    font-size: 20px;
+}
+.tag{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    margin: 15px 0 20px 0;
+    font-weight: lighter;
+    word-spacing: 3px;
+    text-align: center;
+}
+h1 > b{
+    color: aqua;
+}
+.text {
+    text-align: center;
+    margin: 0 20px 30px 20px;
+    font-size: 13;
+    color: gray;
+}
+div > button{
+    padding: 10px 20px;
+    background-color: #111111;
+    color: #eee;
+    border-radius: 2px;
+    border: hidden;
+}
+div > button:nth-child(1) {
+    margin-left: 450px;
+    margin-right: 10px;
+}
